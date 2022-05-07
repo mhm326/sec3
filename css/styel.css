@@ -1,0 +1,410 @@
+
+
+ *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.bab{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(26, 13, 23);
+}
+.img1{
+    width: 160px;
+    height: 60px;
+    float: left;
+    margin-left: 125px;
+}
+.ul1{
+    list-style: none;
+    float: right;
+    
+    }
+ li{
+    display: inline-block;
+    margin: 0px 15px;
+    
+    }
+a{
+    color: rgb(223, 159, 41);
+    text-decoration: none;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(179, 164, 145);
+}
+.home{
+    height: 700px;
+    background-image: url(../img/ddd.jpg);
+    color: rgb(148, 153, 104);
+}
+.home-c{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align:center ;}
+.hh01{   
+    font-size: 50px;
+    text-transform: capitalize;
+    letter: spacing 25px;}
+.bb01{
+    font-size: 19px;
+}
+.b00{width: 150px; 
+    font-size: 19px;
+    padding: 15px 0px;
+    border-radius: 19px;
+    cursor: pointer;
+    background-color: rgb(148, 153,104);
+    color:midnightblue ;
+}
+.b00:hover{
+    opacity: 0.8;
+}
+.b002{margin-left: 15px;
+    background-color: midnightblue;
+    color:rgb(148, 153,104);
+}
+.span01{
+    display:block ;
+    height: 3px;
+    width: 70px;
+    background-color: blue;
+    margin:auto ;
+    margin-bottom: 20px;
+}.container {
+    width:80%;
+    margin: auto;
+    } 
+    
+
+.divc{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.2);
+}
+ .div01{ 
+     height: 100%;
+     width: 100%;
+     text-align: center;
+margin-top: 10%;
+}
+.div00{
+    width: 30%;
+    height: 300px;
+    margin-left: 0px;
+
+    float: left;
+    border: 1px slategrey;
+    position: relative;
+    
+
+
+}
+.div03{
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.div05{
+    transform: translate( -50% -50%);
+
+    margin:6% 17%;
+}
+.div00{
+    position: relative;
+
+}
+.div00::after{
+    content: "";
+    position: absolute;
+    top:0%;
+
+    bottom: 0%;
+    width: 0%;
+    height: 0%;
+    left: 0%;
+   background-color: rgb(143, 216, 216); 
+   transition: 2s;
+   opacity: 0.6;
+
+}
+.div00:hover:after{
+    width: 100%;
+    height: 100%;
+}
+.div11{
+    float: left;
+    height: 100%;
+    width: 30%;
+    margin: auto;
+    margin-left: 25px;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    /**/
+
+    
+
+    }
+    .div12{
+        float: left;
+        height: 300px;
+        width: 30%;
+        margin: auto;
+        margin-left: 25px;
+        margin-top: 50px;
+    }
+
+.img01{
+    height: 100%;
+    width: 100%;}
+
+.div06{ 
+    height: 1000px;
+    width: 80%;
+    text-align: center;
+    margin-top: 50%;
+    margin-left: 10%;
+
+
+}
+.div08{
+    margin-left: 150px;
+}
+.div09{
+    margin-left: 100px;
+    background-color: yellow;
+}
+.p04{
+    text-align: center;
+margin-top: -60%;
+color: rgb(16, 100, 196);
+}
+.h04{ color: rgb(252, 248, 248);}
+.div07{
+    position: relative;
+}
+/*.div0000{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+   
+    background-color: rgba(0, 0, 0, 0.5);
+}*/
+.div201{
+    margin-left: 45%;
+}
+
+.div204 {
+    overflow: hidden;
+}
+.div205{
+    width:30%;
+    float: left;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #a8a8a8 ;
+    padding: 30px 15px 30px 70px;
+    position: relative;}
+
+
+.icon
+{
+    position: absolute;
+    left: 15px;
+    top:26px;
+    color:#6195ff;
+}
+.h201 {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    transition: 1s;
+}
+.p200 {
+ text-transform: capitalize;
+ margin-bottom: 15px;
+ line-height: 1.6;
+ color: #999;
+ }
+ .div300 {
+    background-color: #f9f9f9;
+    margin-top: 500px;
+}
+.div301{
+    width:50%;
+    float:left;
+}
+.div303 {
+    clear: both;
+}
+.div302{
+    text-align:left;
+}
+.div302.span01{
+    margin: 0 0 45px 0;
+}
+.p300{
+    padding-right: 20px;
+    color:#999;
+    line-height: 1.4;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.ul300 {
+    list-style: none;
+}
+.ul300 li i {
+    border: 1px solid #6195ff;
+    color: #6195ff;
+    padding: 3px;
+    border-radius: 50%;
+    width: 20px;
+    height:20px;
+}
+.ul300 li{
+    margin-bottom: 13px;
+    color: #999;
+}
+.img300 {
+    width: 480px;
+    height: 400px;
+}
+.ul301{
+    list-style: none;
+    text-align: center;
+}
+.ul301 li{
+    width:10px;
+    height:10px;
+    display: inline-block;
+    background-color: #a8a8a8;
+    margin: 10px 5px;
+    border-radius: 50%;
+}
+.ul301 li.li300{
+    background-color: #6195ff;
+}
+.ul301 li:hover{
+    background-color: #6195ff;
+}
+.div400 {
+    position: relative;
+    background-image: url(../images/eee.jpeg);
+    height:350px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.div402{
+    overflow:hidden;
+    padding-top: 130px;
+}
+.div403 {
+    width: 25%;
+    float: left;
+    text-align:center;
+}
+.div403 .icon{
+    color:#6195ff;
+    margin-bottom: 15px;
+    float: left;
+}
+.h400{
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 50%;
+}
+.span400 {
+    color: #fff;
+    margin-bottom: 50%/08;
+}
+.img400{ 
+    height: 300px;
+    width: 100%;
+}
+.div500 {
+    background-color: #e8e8e8;
+}
+.div501{
+    overflow: hidden;
+}
+.div502{
+    float: left;
+    width:30%;
+    padding:30px 15px;
+    border: 1px solid #a8a8a8;
+    text-align: center;
+}
+.span500 {
+    text-transform: uppercase;
+    font-size: 17px;
+    color:#999;
+}
+.div503{
+    width: 100px;
+    height: 100px;
+   padding:12px 0;
+    margin: 20px auto;
+    border: 2px solid #6195ff;
+    border-radius: 50%;
+}
+.h500{
+    font-size: 50px;
+}
+.span501{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+.ul500{
+    list-style: none;
+
+}
+.div504{
+    border: 2px solid #6195ff;
+    margin: auto;
+    padding:4px;
+    background-color: none;
+    display: block;
+    width: 120px;
+    margin-top: 15px;
+    transition: color .5s;
+}
+
+.ul500 li{
+    color:#999;
+    line-height: 1.8;
+}
+.div502{
+    position: relative;
+}
+.div502:after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0 ;
+    top: 0;
+    left: 0;
+    background-color: #0b0c0c;
+    transition: .5s;
+    opacity:.5;
+}
+.div502:hover:after{
+    width: 100%;
+    height: 100%;
+}
+.div502:hover .span500{
+    color: rgb(236, 11, 11);
+}
+.div502:hover .div503{
+    color: rgb(245, 12, 12);
+    transition: 1s;
+}
+/
